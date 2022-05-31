@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1073792976941-18gb53o2nefgjenv5ehjp5qjqnhptl4o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1073792976941-18gb53o2nefgjenv5ehjp5qjqnhptl4o</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1073792976941-1b8nhl2m819ut5notmuvbb9hvg104nhb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDddiA8brRXQq956i74iBJsEutICBFZcC4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1073792976941</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>live.amey.trialhack</string>
+	<key>PROJECT_ID</key>
+	<string>mlhhacks-8ec21</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mlhhacks-8ec21.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1073792976941:ios:245bf53a2b08176bf710a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://mlhhacks-8ec21.firebaseio.com</string>
+</dict>
+</plist>

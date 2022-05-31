@@ -1,0 +1,6 @@
+framework module Pods_trialhack {
+  umbrella header "Pods-trialhack-umbrella.h"
+
+  export *
+  module * { export * }
+}

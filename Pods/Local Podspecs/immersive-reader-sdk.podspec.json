@@ -1,0 +1,31 @@
+{
+  "name": "immersive-reader-sdk",
+  "version": "1.0.0",
+  "summary": "Microsoft Cognitive Services - Immersive Reader iOS SDK",
+  "description": "Integrate Microsoft Cognitive Services Immersive Reader iOS SDK into your iOS App.",
+  "homepage": "https://github.com/microsoft/immersive-reader-sdk/iOS",
+  "license": "MIT",
+  "authors": {
+    "Immersive Reader SDK": "irsdk@microsoft.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/microsoft/immersive-reader-sdk.git",
+    "tag": "legacy-ios"
+  },
+  "source_files": [
+    "iOS/immersive-reader-sdk/immersive-reader-sdk/ImmersiveReaderViewController.swift",
+    "iOS/immersive-reader-sdk/immersive-reader-sdk/LaunchImmersiveReader.swift",
+    "iOS/immersive-reader-sdk/immersive-reader-sdk/TestingHandler.swift",
+    "iOS/immersive-reader-sdk/immersive-reader-sdk/immersive_reader_sdk.h"
+  ],
+  "resource_bundles": {
+    "immersive-reader-sdk": [
+      "iOS/immersive-reader-sdk/immersive-reader-sdk/Resources/TestPage.html",
+      "iOS/immersive-reader-sdk/immersive-reader-sdk/Resources/iFrameMessaging.js"
+    ]
+  },
+  "preserve_paths": "iOS/immersive-reader-sdk/immersive-reader-sdk/Resources/*"
+}
