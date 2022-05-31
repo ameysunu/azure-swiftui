@@ -8,3 +8,4 @@ The application uses Microsoft's Azure cognitive services to convert text from i
 
 ## Screenshots
 # azure-swiftui
+# azure-swiftui
