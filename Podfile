@@ -11,5 +11,6 @@ pod 'FirebaseAuth'
 pod 'GoogleSignIn'
 pod 'immersive-reader-sdk', :git => 'https://github.com/microsoft/immersive-reader-sdk.git'
 pod 'FirebaseStorage'
+pod 'Alamofire'
 
 end

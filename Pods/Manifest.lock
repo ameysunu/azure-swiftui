@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.6.1)
   - AppAuth (1.4.0):
     - AppAuth/Core (= 1.4.0)
     - AppAuth/ExternalUserAgent (= 1.4.0)
@@ -111,6 +112,7 @@ PODS:
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase
   - FirebaseAuth
   - FirebaseStorage
@@ -119,6 +121,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - AppAuth
     - Firebase
     - FirebaseAnalytics
@@ -146,6 +149,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/microsoft/immersive-reader-sdk.git
 
 SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   Firebase: 44dd9724c84df18b486639e874f31436eaa9a20c
   FirebaseAnalytics: 4e4b13031034e6561ed3bd1d47b6fdabbd6487c6
@@ -164,6 +168,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 194a7b96ea9a800c408e6a2207ff5da989cf55fe
+PODFILE CHECKSUM: ffaa979d313f498537a17d82d552a88f13188343
 
 COCOAPODS: 1.11.3

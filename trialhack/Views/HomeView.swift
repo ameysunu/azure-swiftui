@@ -57,14 +57,6 @@ struct HomeView: View {
                     .padding()
                 } else {
                     Spacer()
-                    Button(action:{}){
-                        HStack{
-                        Text("Use it in realtime")
-                                .font(.title2)
-                                .padding()
-                        Image(systemName: "camera")
-                    }
-                    }
                     HStack{
                         Text("Select a photo to get started")
                             .font(.title2)
@@ -143,6 +135,10 @@ struct HomeView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: UserView(userName: user?.profile?.name ?? ""), isActive: $userPressed){
                         Button("My Account") {
+                            Task {
+                                await translateData()
+                            }
+
                             self.userPressed = true
                         }
                     }
